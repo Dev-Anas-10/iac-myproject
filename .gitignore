@@ -4,4 +4,3 @@ terraform/deploy.yaml
 terraform/clean-up.sh
 terraform/.terraform.lock.hcl
 terraform/.terraform
-terraform
