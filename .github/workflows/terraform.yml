@@ -5,12 +5,12 @@ on:
       - main
       - stage
     paths: 
-      - '!terraform/**'  # Ignoring all changes in the terraform directory
+      - terraform/**  # Ignoring all changes in the terraform directory
   pull_request: 
     branches: 
       - main
     paths: 
-      - '!terraform/**'  # Ignoring all changes in the terraform directory
+      - terraform/**  # Ignoring all changes in the terraform directory
 
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
